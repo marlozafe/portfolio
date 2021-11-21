@@ -1,0 +1,137 @@
+@font-face{
+    src:url("../fonts/Poppins/Poppins-Regular.ttf");
+    font-family: poppins;
+}
+@font-face{
+    src: url('../fonts/Winkle-Regular.ttf');
+    font-family: winkle;
+}
+*{
+    font-family: poppins;
+    transition: 100ms;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+@keyframes slide-up {
+    0%{
+        transform: translateY(60vh);
+    }
+    80%{
+        transform: translateY(0px);
+    }
+}
+.section{
+    padding-top: 10vh;
+}
+
+#home{
+    min-height: 90vh;
+    position: relative;
+    p, h4, h5{
+        // animation: 1.4s slide-up ease 1;
+        // transform: translateY(60vh);
+    }
+    img{
+        width: 400px;
+        height: 300px;
+        transition: 400ms;
+        animation: 2.3s move linear infinite;
+    }
+    #msg-btn{
+        i{
+            animation: 3s grow linear infinite;
+        }
+    }
+
+}
+
+@keyframes move {
+    20%{
+        transform: translateY(-10px);
+    }
+    80%{
+        transform: translateY(10px);
+    }
+}
+@keyframes grow{
+    20%{
+        transform: scale(1.03);
+        color: black;
+    }
+    80%{
+        transform: scale(.98);
+    }
+}
+
+
+// ABout
+#about{
+        img{
+            width: 50px;
+            height: 50px;
+        }
+}
+
+
+.btn{
+    transition: 480ms;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+// Projects
+#projects{
+    .card{
+        h3, p{
+            font-family: winkle;
+        }
+        
+    }
+}
+.nav-link{
+    transition: 480ms;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+.navbar-brand{
+    font-size: 1.7rem;
+}
+
+.menu{
+    z-index: 2;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    color: white;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.custom-shape-divider-bottom-1634208358 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1634208358 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 80px;
+}
+
+.custom-shape-divider-bottom-1634208358 .shape-fill {
+    fill: #f8f9fa;
+}
