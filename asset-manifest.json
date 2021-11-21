@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b82286e0.chunk.css",
+    "main.js": "/portfolio/static/js/main.7fdf784b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7fdf784b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
+    "static/css/2.a6244ede.chunk.css": "/portfolio/static/css/2.a6244ede.chunk.css",
+    "static/js/2.2f1d641b.chunk.js": "/portfolio/static/js/2.2f1d641b.chunk.js",
+    "static/js/2.2f1d641b.chunk.js.map": "/portfolio/static/js/2.2f1d641b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.a6244ede.chunk.css.map": "/portfolio/static/css/2.a6244ede.chunk.css.map",
+    "static/css/main.b82286e0.chunk.css.map": "/portfolio/static/css/main.b82286e0.chunk.css.map",
+    "static/js/2.2f1d641b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2f1d641b.chunk.js.LICENSE.txt",
+    "static/media/Code Development _Isometric.4600b9c1.svg": "/portfolio/static/media/Code Development _Isometric.4600b9c1.svg",
+    "static/media/App.css": "/portfolio/static/media/Winkle-Regular.e956a60e.ttf",
+    "static/media/Process building_Outline.fa666414.svg": "/portfolio/static/media/Process building_Outline.fa666414.svg",
+    "static/media/css.4e67641b.png": "/portfolio/static/media/css.4e67641b.png",
+    "static/media/html.5f77e90e.png": "/portfolio/static/media/html.5f77e90e.png",
+    "static/media/js.0efdef26.png": "/portfolio/static/media/js.0efdef26.png",
+    "static/media/php.502c1a90.png": "/portfolio/static/media/php.502c1a90.png",
+    "static/media/portfolio.7a2b55c6.JPG": "/portfolio/static/media/portfolio.7a2b55c6.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37da8305.js",
+    "static/css/2.a6244ede.chunk.css",
+    "static/js/2.2f1d641b.chunk.js",
+    "static/css/main.b82286e0.chunk.css",
+    "static/js/main.7fdf784b.chunk.js"
+  ]
+}
